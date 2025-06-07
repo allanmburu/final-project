@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ngumbau Warehouse Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pictures">Pictures</a></li>
+            <li><a href="#info">Info</a></li>
+        </ul>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Ngumbau Warehouse Store</h1>
+            <p>Your trusted partner for secure and flexible storage solutions in Nairobi.</p>
+            <a href="#contact" class="hero-btn">Get Started</a>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to Ngumbau Warehouse Store, your one-stop solution for all storage needs.</p>
+    </section>
+    <section id="about">
+        <h2>About</h2>
+        <p>Ngumbau Warehouse has served the community for over a decade, offering reliable and secure storage services.</p>
+    </section>
+    <section id="features">
+        <h2>Features</h2>
+        <p>Our warehouse features climate control, 24/7 surveillance, and flexible rental plans to suit every customer.</p>
+    </section>
+    <section id="pictures">
+        <h2>Pictures</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Colorful Warehouse 1">
+            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Colorful Warehouse 2">
+            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Colorful Warehouse 3">
+        </div>
+        <p>Explore our vibrant and well-organized storage spaces in the gallery above.</p>
+    </section>
+    
+    <!-- Testimonial Section Card -->
+    <section id="testimonials" class="testimonial-section">
+        <div class="testimonial-card">
+            <img src="assets/testimonial image 1.png" alt="Client Testimonial" class="testimonial-image">
+            <div class="testimonial-content">
+                <h2>What Our Clients Say</h2>
+                <blockquote>
+                    <p>"Ngumbau Warehouse provided exceptional service and peace of mind for my business storage needs. Highly recommended!"</p>
+                    <footer>- Mary W., Nairobi</footer>
+                </blockquote>
+                <blockquote>
+                    <p>"The facility is clean, secure, and the staff are always helpful. I wouldn't store my goods anywhere else."</p>
+                    <footer>- James K., Business Owner</footer>
+                </blockquote>
+                <div class="testimonial-social-icons">
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter"></a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn"></a>
+                </div>
+                <div class="testimonial-response">
+                    <input type="text" id="client-question" placeholder="Ask us anything...">
+                    <button id="send-question">Send</button>
+                    <div id="client-answer"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonial Section Card -->
+    <section id="location">
+        <h2>Location</h2>
+        <p>We are located at 123 Storage Lane, Nairobi, Kenya.</p>
+        <iframe
+            src="https://www.google.com/maps?q=-1.2921,36.8219&z=15&output=embed"
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <!-- Contact & FAQ Side-by-Side Section -->
+    <div class="contact-faq-row">
+        <section id="contact" class="contact-card">
+            <h2>Send Us a Message</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+            <div id="form-response">thank you for chatting with ngumbau warehouse</div>
+        </section>
+        <section id="faq" class="faq-card">
+            <img src="assets/heros section.png" alt="FAQ Illustration" class="faq-image">
+            <div class="faq-content">
+                <h2>Frequently Asked Questions</h2>
+                <details>
+                    <summary>What services does Ngumbau Warehouse Store offer?</summary>
+                    <p>We offer secure, flexible storage solutions, climate control, 24/7 surveillance, and more.</p>
+                </details>
+                <details>
+                    <summary>How do I book a storage unit?</summary>
+                    <p>You can book a unit by contacting us via the form above or calling our office directly.</p>
+                </details>
+                <details>
+                    <summary>Are my items insured?</summary>
+                    <p>Yes, all stored items are covered by our comprehensive insurance policy.</p>
+                </details>
+                <details>
+                    <summary>Can I access my storage at any time?</summary>
+                    <p>Yes, our facility offers 24/7 access for all customers.</p>
+                </details>
+            </div>
+        </section>
+    </div>
+    <!-- End Contact & FAQ Row -->
+    <!-- Footer with Social Media Card -->
+    <footer class="footer-social">
+        <div class="footer-card">
+            <h3>Connect with Us</h3>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram"></a>
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn"></a>
+            </div>
+            <p class="footer-copy">&copy; 2025 Ngumbau Warehouse Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="script.js"></script>
+</body>
+</html>
